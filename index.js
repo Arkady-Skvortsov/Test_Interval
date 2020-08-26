@@ -11,8 +11,6 @@ function Hover() {
    let i = 0;  
 
    Interval = setInterval(() => {
-      main_screen.classList.add('anim');      
-
       main_screen.src = arr[i];
 
       i++; 
@@ -24,8 +22,6 @@ function Hover() {
 
 function Over() {
    clearInterval(Interval);
-
-    main_screen.classList.remove('anim'); 
 
    main_screen.src = "./img/Main_TLOU2.jpg";
 }

@@ -36,29 +36,3 @@
 	left: 0;
 	border-radius: 35px;
 }
-
-.container_img.anim {
-    animation: img 2s linear infinite;
-}
-
-@keyframes img {
-	0% {
-      opacity: .2;
-	}
-    
-    25% {
-      opacity: .4;
-    }
-
-	50% {
-      opacity: .6; 
-	}
-
-	75% {
-	  opacity: .8;
-	}
-
-	100% {
-      opacity: 1;
-	}
-}
